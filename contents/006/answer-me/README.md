@@ -32,6 +32,12 @@ $ timedatectl
 # timedatectl set-timezone Asia/Tokyo
 ```
 
+- もしくはTZ環境変数を指定する
+
+```
+$ export TZ="Asia/Tokyo"
+```
+
 
 
 ## -Duser.timezoneシステム・プロパティ
@@ -41,4 +47,6 @@ $ timedatectl
 ```
 -Duser.timezone=Asia/Tokyo
 ```
+
+
 
